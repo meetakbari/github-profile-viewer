@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Search from "../Components/Search";
-import Profile from "../Components/Profile";
+import Search from "../Pages/Search";
+import Profile from "../Pages/Profile";
 
 const Routing = () => {
     return (
