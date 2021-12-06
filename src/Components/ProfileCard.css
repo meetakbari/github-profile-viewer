@@ -1,0 +1,17 @@
+.card {
+    max-width: 600px;
+    height: 150px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-left {
+    margin-top: -1px;
+}
+.card-profile-image{
+    padding: 5px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}

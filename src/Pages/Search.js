@@ -1,6 +1,9 @@
 import './Search.css'
-import SearchBox from '../Components/SearchBox';
 import { useState } from 'react';
+
+import SearchBox from '../Components/SearchBox';
+import Header from '../Components/Header';
+import ProfileCard from '../Components/ProfileCard';
 
 const Search = () => {
 
@@ -13,7 +16,22 @@ const Search = () => {
 
     return (
         <div className="container">
-            <SearchBox func={getQuery}/>
+            <div className="header-container">
+                <Header />
+                <SearchBox func={getQuery}/>
+            </div>
+            <div className="search-results-container">
+                <ProfileCard />
+                <ProfileCard />
+                <ProfileCard />
+                <ProfileCard />
+                <ProfileCard />
+                <ProfileCard />
+                <ProfileCard />
+                <ProfileCard />
+                <ProfileCard />
+                <ProfileCard />
+            </div>
         </div>
     )
 }

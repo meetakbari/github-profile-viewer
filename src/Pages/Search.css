@@ -1,10 +1,35 @@
 .container{
     margin: 50px auto;
     display: flex;
-    justify-content: center;
-    border: 2px solid black;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid black; */
     min-width: max-content;
     width: 50vw;
     max-height: 80vh;
     height: 80vh;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width: 50vw;
+    height: fit-content;
+}
+
+.search-results-container {
+    /* border: 2px solid red; */
+    max-height: 60vh;
+    width: 50vw;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 20px 30px;
+    align-items: center;
+    justify-content: center;
 }

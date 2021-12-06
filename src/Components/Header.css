@@ -1,0 +1,15 @@
+.h-container {
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.header-text {
+    font-size: calc(1.5vw + 1vh);
+}
